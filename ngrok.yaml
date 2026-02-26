@@ -1,0 +1,8 @@
+version: "2"
+tunnels:
+  myapp:
+    proto: http
+    addr: 8080
+    request_header:
+      add:
+        - "ngrok-skip-browser-warning:true"
